@@ -1,0 +1,269 @@
+:root{
+    --green-color:#5AB963;
+    --black-color:#000;
+    --white-color:#fff;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+hr{
+    width: 82%;
+    color: #d1d1d9;
+    margin-top: 115px;
+    margin-bottom: 120px;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background-image: url("./image/Hero-image.png");
+    height: 582px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    margin-left: 135px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 40px;
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+nav ul li .btn.transperent{
+    border: 2px solid var(--white-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+    padding: 11px 17px;
+}
+.hero-section{
+    text-align: center;
+    margin-top: 148px;
+}
+.hero-section h1{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--white-color);
+}
+.hero-section p{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white-color);
+}
+.hero-section .btn.green{
+    background: var(--green-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    text-align: center;
+    color: var(--white-color);
+    padding: 15px 30px;
+}
+/* end of the header */
+.business{
+    margin-top: 120px;
+    margin-left: 135px;
+    margin-right: 199px;
+    margin-bottom: 120px;
+}
+.business .upper-text h1{
+    width: 507px;
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.business .upper-text span{
+    color: lightgray;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 54px;
+    width: 76em;
+}
+.links .link{
+    margin-right: 61px;
+}
+.links .link h1{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.links .link p{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+/* ------------------- */
+.egg-image img{
+    margin: 0 30px 115px 30px;
+}
+.egg-image p{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.egg-image p span{
+    color: #999999;
+}
+/* ------------- */
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left .food-text{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.left .food-text span{
+    color: #999999;
+}
+.left .food-text p{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+.left2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 93px;
+}
+.left2 .food-text{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.left2 .food-text span{
+    color: #999999;
+}
+.left2 .food-text p{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+.down-text{
+    text-align: center;
+}
+.down-text h1{
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.down-text p{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5AB963;
+}
+/* ----------- */
+.upper-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.upper-footer .left{
+    display: inline-block;
+}
+.upper-footer .left p{
+    font-family: 'Libre Franklin',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5AB963;
+    margin-bottom: -15px;
+}
+.upper-footer .left h1{
+    font-family: 'Libre Franklin',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.upper-footer .left span{
+    color: #999;
+}
+.upper-footer .right a{ 
+    background: var(--green-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: 'Libre Franklin',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    text-align: center;
+    color: var(--white-color);
+    padding: 15px 30px;
+}
