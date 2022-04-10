@@ -13,9 +13,8 @@ body{
     font-family: "Poppins", sans-serif;
 }
 hr{
-    width: 82%;
-    color: #d1d1d9;
-    margin-top: 115px;  
+    width: 80%;
+    
 }
 .wrapper{
     max-width: 1440px;
@@ -221,6 +220,7 @@ nav ul li .btn.transperent{
     text-align: center;
     text-transform: uppercase;
     color: #5AB963;
+    margin-bottom: 238px;
 }
 /* ----------- */
 .upper-footer{
@@ -260,7 +260,6 @@ nav ul li .btn.transperent{
     font-family: 'Libre Franklin',sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 90px;
     text-align: center;
     color: var(--white-color);
     padding: 15px 30px;
